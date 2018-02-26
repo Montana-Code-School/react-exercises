@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import HelloWorldLogo from './HelloWorld.js';
-import Counter from "./Counter.js";
-import CounterListApp from "./CounterList.js";
+import GreeterContainer from './GreeterContainer.js';
+import CounterListApp from "./CounterListApp.js";
 
 import './App.css';
 
@@ -16,6 +16,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
           <ul>
+            <GreeterContainer />
             <CounterListApp />
           </ul>
           To get started, edit <code>src/App.js</code> and save to reload.
